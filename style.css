@@ -1,0 +1,84 @@
+html {
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #262424;
+  color: white;
+  text-align: center;
+}
+
+body {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 0;
+  padding: 0 0 15px 0;
+  color: pink;
+}
+
+img {
+  display: block;
+  margin: 0 auto 15px auto;
+  border-radius: 15px;
+  max-width: 300px;
+  height: auto;
+}
+
+p, li {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.content-block {
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #333131;
+  margin-bottom: 15px;
+}
+
+.content-block:last-child {
+  margin-bottom: 0;
+}
+
+.content-block p:last-child {
+  margin-bottom: 0;
+}
+
+.content-block p:first-child,
+.content-block h2:first-child {
+  margin-top: 0;
+}
+
+.contacts h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: pink;
+}
+
+.contacts a {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 120px;
+  color: white;
+  text-decoration: none;
+  margin: 5px 10px;
+  padding: 10px 0;
+  font-size: 16px;
+  background-color: #3f3d3d;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.contacts a:hover {
+  background-color: pink;
+  color: #262424; 
+  transform: translateY(-2px);
+}
+
+@media (max-width: 480px) {
+  h1 { font-size: 32px; }
+  body { padding: 10px; }
+}
